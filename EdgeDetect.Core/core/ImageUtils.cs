@@ -30,7 +30,28 @@ namespace EdgeDetect.Core
 
             return result;
         }
+        public static void SaveByteArrayAsImage(byte[,] data, string path)
+        {
+            int height = data.GetLength(0);
+            int width = data.GetLength(1);
+
+            using Image<Rgba32> image = new Image<Rgba32>(width, height);
+
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    byte gray = data[y, x];
+                    image[x, y] = new Rgba32(gray, gray, gray, 255); // <-- direct pixel access
+                }
+            }
+
+            image.Save(path); // Saves in format based on file extension
+        }
+
     }
+
+
 }
 
 
