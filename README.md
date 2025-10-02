@@ -1,11 +1,11 @@
-# 🖼️ EdgeDetect
+# EdgeDetect
 
 A simple C# .NET project for edge detection in images using operators such as **Sobel** and **Prewitt**.  
 This project was developed as a learning exercise in image processing and C#.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - **EdgeDetect** → Main application (handles CLI, image processing).  
 - **EdgeDetect.Tests** → Unit tests for operators and edge detection.  
@@ -13,7 +13,7 @@ This project was developed as a learning exercise in image processing and C#.
 
 ---
 
-## ⚙️ Build
+## Build
 
 To build the project, run:
 
@@ -23,7 +23,7 @@ dotnet build
 
 ---
 
-## ▶️ Run
+## Run
 
 To run the program manually, use:
 
@@ -45,7 +45,7 @@ Available operators:
 
 ---
 
-## 🧪 Test
+## Test
 
 Unit tests are included in `EdgeDetect.Tests`.
 
@@ -61,7 +61,7 @@ The tests cover:
 
 ---
 
-## 📊 UML Diagram
+## UML Diagram
 
 The system structure is shown below:
 
@@ -69,10 +69,10 @@ The system structure is shown below:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by **Min Zay Ya (Kuroneko)**  
-📧 [minzayya.augustinerichard@gmail.com](mailto:minzayya.augustinerichard@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/minzayya-kuroneko) | [GitHub](https://github.com/kuroNeko-23)
+[minzayya.augustinerichard@gmail.com](mailto:minzayya.augustinerichard@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/minzayya-kuroneko) | [GitHub](https://github.com/kuroNeko-23)
 
 ---
